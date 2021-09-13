@@ -1,0 +1,44 @@
+<resources>
+    //App
+    <string name="logo">8bitsMe</string>
+    <string name="app_name">Planiraj Godišnji</string>
+
+    //Custom components
+    <string name="info_view_i">i</string>
+
+    //Login screen
+    <string name="login_screen_start">Kreni</string>
+    <string name="login_screen_bubble_text">Ovo je jednostavna aplikacija kojom se želim predstaviti budućem poslodavcu, te dobiveni rezultati možda nekada neće biti točni. Obzirom na svrhu aplikacije, ova aplikacija ni na koji način ne predstavlja stavove koje imam prema poslu i obvezama opčenito!! Volim biti zaposlen i stvarno bi volio da me netko zaposli.</string>
+
+    //Query screen
+    <string name="query_screen_title">Upiti</string>
+    <string name="query_screen_country">Zemlja:</string>
+    <string name="query_screen_language">Jezik:</string>
+    <string name="query_screen_recycler_view_text">Označeni vremenski periodi:</string>
+    <string name="query_screen_vacation_days">Broj dana godišnjeg odmora koje želite iskoristiti:</string>
+    <string name="query_screen_add">Dodaj vremenski period u listu</string>
+    <string name="query_screen_calculate">Izračunaj</string>
+    <string name="query_screen_add_start_date">Početni datum</string>
+    <string name="query_screen_add_end_date">Završni datum</string>
+    <string name="query_screen_bubble_text">Dodajte datum prvog dana odmora, datum posljednjeg dana odmora, te koliko dana godišnjeg odmora želite iskoristiti u tom razdoblju. Dodajte to razdoblje na popis. Možete dodati onoliko vremenskih razdoblja koliko želite. Kao rezultat dobit ćete najveći broj povezanih slobodnih dana po razdoblju, nakon što se broju dana godišnjeg odmora koje želite iskoristiti pribroje neradni dani (subote, nedjelje, blagdani, itd.). Kliknite na gumb \"Izračunaj\".</string>
+    <string name="query_screen_date">%1$d.%2$d.%3$d.</string>
+    <string name="query_screen_time_period_data_missing">Morate odabrati datum prvog dana odmora, datum posljednjeg dana odmora, i koliko dana godišnjeg odmora želite iskoristiti. Zatim to vremensko razdoblje možete dodati u listu.</string>
+    <string name="query_screen_incorrect_time_period_data">Nešto je pogrešno u podacima potrebnim za kreiranje vremenskog perioda. Provjerite ako je \"početni datum\" postavljen na datum prije \"završnog datuma\". Također provjerite ako je broj dana godišnjeg odmora koje želite iskoristiti veći od 0.</string>
+    <string name="query_screen_already_in_the_list">Vremenski period koji želite kreirati već postoji u listi.</string>
+    <string name="query_screen_empty_list">Morate kreirati barem jedan vremenski period prije nego možete kliknuti na gumb \"Izračunaj\".</string>
+
+    //Results screen
+    <string name="results_screen_title">Rezultati</string>
+    <string name="results_screen_header"><b><i><u>Rezultati:</u></i></b></string>
+    <string name="results_screen_searched_period"><b><i><u>Pretraženi period</u></i></b></string>
+    <string name="results_screen_searched_period_start_date">Početni datum pretraživanja:</string>
+    <string name="results_screen_searched_period_end_date">Završni datum pretraživanja:</string>
+    <string name="results_screen_searched_period_number_of_vacation_days_to_use">Broj dana godišnjeg za iskoristiti:</string>
+    <string name="results_screen_vacation_period_vacation_option">%1$d. opcija godišnjeg odmora</string>
+    <string name="results_screen_vacation_period_vacation_start_date">Početni datum godišnjeg:</string>
+    <string name="results_screen_vacation_period_vacation_end_date">Završni datum godišnjeg:</string>
+    <string name="results_screen_vacation_period_number_of_free_days">Broj slobodnih dana:</string>
+    <string name="results_screen_vacation_period_holidays">Blagdani:</string>
+    <string name="results_screen_vacation_period_saturdays_and_sundays">Subote i nedjelje:</string>
+
+</resources>

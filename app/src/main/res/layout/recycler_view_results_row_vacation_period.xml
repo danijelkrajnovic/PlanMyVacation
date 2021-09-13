@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recycler_view_results_row_vacation_period_background"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textview_vacation_option"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/results_screen_vacation_period_vacation_option"/>
+
+    <TextView
+        android:id="@+id/label_vacation_period_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_vacation_option"
+        android:text="@string/results_screen_vacation_period_vacation_start_date"/>
+
+    <TextView
+        android:id="@+id/vacation_period_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@id/label_vacation_period_start_date"
+        app:layout_constraintTop_toBottomOf="@+id/textview_vacation_option"
+        android:layout_marginStart="10dp"
+        android:text="nesto"/>
+
+    <TextView
+        android:id="@+id/label_vacation_period_end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vacation_period_start_date"
+        android:text="@string/results_screen_vacation_period_vacation_end_date"/>
+
+    <TextView
+        android:id="@+id/vacation_period_end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/label_vacation_period_end_date"
+        app:layout_constraintTop_toBottomOf="@+id/vacation_period_start_date"
+        android:layout_marginStart="10dp"
+        android:text="nesto"/>
+
+    <TextView
+        android:id="@+id/label_vacation_period_vacation_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vacation_period_end_date"
+        android:text="@string/results_screen_vacation_period_number_of_free_days"/>
+
+    <TextView
+        android:id="@+id/vacation_period_vacation_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toRightOf="@+id/label_vacation_period_vacation_days"
+        app:layout_constraintTop_toBottomOf="@+id/vacation_period_end_date"
+        android:layout_marginStart="10dp"
+        android:text="nesto"/>
+
+    <LinearLayout
+        android:id="@+id/vacation_period_holidays_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/vacation_period_vacation_days"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/label_vacation_period_holidays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/results_screen_vacation_period_holidays"/>
+
+        <LinearLayout
+            android:id="@+id/vacation_period_holidays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:padding="3dp"
+            android:background="@color/holo_green_light_transparent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/vacation_period_holidays_linear_layout"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/label_vacation_period_saturdays_and_sundays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/results_screen_vacation_period_saturdays_and_sundays"/>
+
+        <LinearLayout
+            android:id="@+id/vacation_period_saturdays_and_sundays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:padding="3dp"
+            android:background="@color/holo_blue_light_transparent"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<resources>
+    //App
+    <string name="logo">8bitsMe</string>
+    <string name="app_name">Plan My Vacation</string>
+
+    //Custom components
+    <string name="info_view_i">i</string>
+
+    //Login screen
+    <string name="login_screen_start">Start</string>
+    <string name="login_screen_bubble_text">This is a simple application by which I want to introduce myself to a future employer, so the results may not be accurate at times. Considering the application purpose, this application does not in any way represent the attitudes I have towards being employed or having obligations in general!! I love being employed and would really like to be hired by someone.</string>
+
+    //Query screen
+    <string name="query_screen_title">Query screen</string>
+    <string name="query_screen_country">Country:</string>
+    <string name="query_screen_language">Language:</string>
+    <string name="query_screen_recycler_view_text">Selected time periods are:</string>
+    <string name="query_screen_vacation_days">Number of vacation days you want to use:</string>
+    <string name="query_screen_add">Add time period to the list</string>
+    <string name="query_screen_calculate">Calculate</string>
+    <string name="query_screen_add_start_date">Add start date</string>
+    <string name="query_screen_add_end_date">Add end date</string>
+    <string name="query_screen_bubble_text">Add a date for the first day of vacation, date for the last day of vacation, and how many days of vacation you want to use during that period. Add that period to the list. You can add as many time periods as you want. As a result you will get the maximum number of connected free days in each period, after non-working days (Saturdays, Sundays, holidays, etc.) are added to the number of vacation days you want to use. Click the \"Calculate\" button.</string>
+    <string name="query_screen_date">%1$d.%2$d.%3$d.</string>
+    <string name="query_screen_time_period_data_missing">You must select starting date of your vacation, ending date of your vacation, and the number of vacation days you want to use. Than you can add that time period to the list.</string>
+    <string name="query_screen_incorrect_time_period_data">Something is wrong with the time period data. Check if \"start date\" is set to a date before \"end date\". Also check if number of vacation days you want to use is greater than 0.</string>
+    <string name="query_screen_already_in_the_list">Time period you want to create is already in the list.</string>
+    <string name="query_screen_empty_list">You must create at least one time period before you can click on \"Calculate\" button.</string>
+
+    //Results screen
+    <string name="results_screen_title">Results screen</string>
+    <string name="results_screen_header"><b><i><u>Results:</u></i></b></string>
+    <string name="results_screen_searched_period"><b><i><u>Searched period</u></i></b></string>
+    <string name="results_screen_searched_period_start_date">Search start date:</string>
+    <string name="results_screen_searched_period_end_date">Search end date:</string>
+    <string name="results_screen_searched_period_number_of_vacation_days_to_use">Number of vacation days to use:</string>
+    <string name="results_screen_vacation_period_vacation_option">%1$d. vacation option</string>
+    <string name="results_screen_vacation_period_vacation_start_date">Vacation start date:</string>
+    <string name="results_screen_vacation_period_vacation_end_date">Vacation end date:</string>
+    <string name="results_screen_vacation_period_number_of_free_days">Number of free days:</string>
+    <string name="results_screen_vacation_period_holidays">Holidays:</string>
+    <string name="results_screen_vacation_period_saturdays_and_sundays">Saturdays and sundays:</string>
+
+</resources>

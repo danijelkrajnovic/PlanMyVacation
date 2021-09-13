@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:text="@string/query_screen_country" />
+
+                <TextView
+                    android:id="@+id/country_text_view"
+                    style="@style/CustomTextView" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/CustomTextView"
+                    android:text="@string/query_screen_language" />
+
+                <TextView
+                    android:id="@+id/language_text_view"
+                    style="@style/CustomTextView" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/query_screen_recycler_view_text" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/periods_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/start_date_edit_text"
+                style="@style/CustomTextView.CustomEditText"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:focusable="false" />
+
+            <Button
+                android:id="@+id/start_date_button"
+                style="@style/CustomButton"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="@string/query_screen_add_start_date" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/end_date_edit_text"
+                style="@style/CustomTextView.CustomEditText"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:focusable="false" />
+
+            <Button
+                android:id="@+id/end_date_button"
+                style="@style/CustomButton"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="@string/query_screen_add_end_date" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/CustomTextView"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:text="@string/query_screen_vacation_days" />
+
+            <EditText
+                android:id="@+id/days_of_vacation_edit_text"
+                style="@style/CustomTextView.CustomEditText"
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add_time_period_to_list_button"
+            style="@style/CustomButton"
+            android:layout_width="match_parent"
+            android:text="@string/query_screen_add" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/calculate_button"
+            style="@style/CustomButton"
+            android:layout_width="match_parent"
+            android:text="@string/query_screen_calculate" />
+
+    </LinearLayout>
+
+    <com.example.planmyvacation.views.InfoView
+        android:id="@+id/query_screen_info_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        app:bubbleText="@string/query_screen_bubble_text" />
+
+</RelativeLayout>
